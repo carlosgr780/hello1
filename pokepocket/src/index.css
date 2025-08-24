@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+/* Base app background and text colors */
+/* Using Tailwind via @apply for convenience */
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+}
